@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energia Acessível e Limpa</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #cbcbcb, #d1d1d1);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        .nome {
+            color: #ffe55c;
+            font-weight: bold;
+            border-bottom: 2px dashed #fff;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .nome:hover {
+            color: #ffd700;
+        }
+
+        .fala {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .voltar {
+            background-color: #fff;
+            color: #bdbdbd;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .voltar:hover {
+            background-color: #757575;
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Eólica (<b class="nome" title="Nome">Antônio Lucas</b>)</h1>
+        <p class="fala">A energia eólica é gerada pelo vento que gira uma turbina. Esse 
+            movimento mecânico é convertido em energia elétrica por um gerador. Ela pode ser 
+            usada em grande escala ou em pequena escala para aplicações residenciais.</p>
+        <a href="index.html">
+            <input class="voltar" type="button" value="Voltar">
+        </a>
+    </div>
+</body>
+</html>
